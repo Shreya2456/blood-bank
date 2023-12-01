@@ -1,0 +1,177 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}	
+body,html{
+	font-family: 'Roboto', sans-serif;
+	overflow-x:hidden;
+	background-color: #F2F2F2;
+}
+
+.container-fluid{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.Bg--White{
+	background-color: #FFFFFF;
+}
+
+.navbar{
+    background: rgba(153,0,0,0.69);
+	background: -moz-linear-gradient(45deg, rgba(153,0,0,0.69) 0%, rgba(153,0,0,0.69) 1%, rgba(153,0,0,0.71) 7%, rgba(221,0,23,0.78) 29%, rgba(221,0,23,0.8) 35%, rgba(153,0,0,0.96) 87%, rgba(153,0,0,1) 100%);
+	background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(153,0,0,0.69)), color-stop(1%, rgba(153,0,0,0.69)), color-stop(7%, rgba(153,0,0,0.71)), color-stop(29%, rgba(221,0,23,0.78)), color-stop(35%, rgba(221,0,23,0.8)), color-stop(87%, rgba(153,0,0,0.96)), color-stop(100%, rgba(153,0,0,1)));
+	background: -webkit-linear-gradient(45deg, rgba(153,0,0,0.69) 0%, rgba(153,0,0,0.69) 1%, rgba(153,0,0,0.71) 7%, rgba(221,0,23,0.78) 29%, rgba(221,0,23,0.8) 35%, rgba(153,0,0,0.96) 87%, rgba(153,0,0,1) 100%);
+	background: -o-linear-gradient(45deg, rgba(153,0,0,0.69) 0%, rgba(153,0,0,0.69) 1%, rgba(153,0,0,0.71) 7%, rgba(221,0,23,0.78) 29%, rgba(221,0,23,0.8) 35%, rgba(153,0,0,0.96) 87%, rgba(153,0,0,1) 100%);
+	background: -ms-linear-gradient(45deg, rgba(153,0,0,0.69) 0%, rgba(153,0,0,0.69) 1%, rgba(153,0,0,0.71) 7%, rgba(221,0,23,0.78) 29%, rgba(221,0,23,0.8) 35%, rgba(153,0,0,0.96) 87%, rgba(153,0,0,1) 100%);
+	background: linear-gradient(45deg, rgba(153,0,0,0.69) 0%, rgba(153,0,0,0.69) 1%, rgba(153,0,0,0.71) 7%, rgba(221,0,23,0.78) 29%, rgba(221,0,23,0.8) 35%, rgba(153,0,0,0.96) 87%, rgba(153,0,0,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#990000', endColorstr='#990000', GradientType=1 );
+	color: #FFFFFF;
+	margin:0px;
+    border-radius:0px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+
+.navbar
+{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 20px;
+    padding-top: 50px;
+}
+
+nav
+{
+    flex: 1;
+    text-align: right;
+}
+nav ul 
+{
+    display: inline-block;
+    list-style: none;
+}
+nav ul li
+{
+    display: inline-block;
+    margin-right: 70px;
+}
+nav ul li a
+{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    font-family: sans-serif;
+}
+nav ul li button
+{
+    font-size: 20px;
+    color: rgb(207, 210, 16);
+    outline: none;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    font-family: sans-serif;
+}
+nav ul li button:hover
+{
+    color: aqua;
+}
+nav ul li a:hover
+{
+    color: aqua;
+}
+nav ul li a i
+{
+	margin-right:5px;
+
+}
+nav ul li:after{
+	content:"";
+	display:block;
+	width:0;
+	height:3px;
+	background-color:#b39ab1;
+	border-radius:5px;
+    position: absolute;
+	left:0;
+	bottom:-6px;
+	transition:all .5s;
+
+}
+
+
+
+a
+{
+    text-decoration: none;
+    color:  rgb(131, 188, 220);
+	font-size: 35px;}
+
+
+.tc{
+	text-align: center;
+}
+
+.Banner--Text{
+	margin-top: 100px;
+	padding: 20px;
+    background-color: #FFFFFF;
+	font-size: 24px;
+}
+
+.Banner--Blood{
+	background-color: #FFFFFF;
+}
+
+.Banner--Image img{
+    width: 25%;
+	margin-top:30px;
+	
+  
+}
+
+
+.Blood--Facts{
+	margin: 10px;
+	padding: 30px;
+	background-color: #FFF;
+	-webkit-box-shadow: 2px 4px 5px 0px rgba(201,201,201,1);
+	-moz-box-shadow: 2px 4px 5px 0px rgba(201,201,201,1);
+	box-shadow: 2px 4px 5px 0px rgba(201,201,201,1);
+	text-align:center;
+	font-size: 22px;
+}
+
+.Blood--Facts:hover{
+	-webkit-box-shadow: 2px 4px 5px 0px #C2C3C5;
+	-moz-box-shadow: 2px 4px 5px 0px #C2C3C5;
+	box-shadow: 2px 4px 5px 0px #C2C3C5;
+}
+
+.Blood--Facts h4{
+    line-height: 30px;
+}
+
+.Blood--Facts h5{
+	line-height: 20px;
+}
+
+
+.Btn--Member{
+	padding: 8px 12px;
+	color: #FFF;
+	background-color: #dd0017;
+}
+
+.Btn--Member:hover{
+	color:#dd0017;
+	background-color: #FFF;
+	-webkit-box-shadow: 2px 2px 3px 0px rgba(221,0,23,1);
+	-moz-box-shadow: 2px 2px 3px 0px rgba(221,0,23,1);
+	box-shadow: 2px 2px 3px 0px rgba(221,0,23,1);
+}
